@@ -1,12 +1,21 @@
 ---
 title: "Min fina titel"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/profilbild.jpg?w=500" class="right" caption="Bild på mig"]
 
 Hej hopp! Ebba heter jag, är 22 år ung och är en born and raised Linköpingsbo!
 Läste jurudik på gymnasiet med tanken att bli någon form av djur-/miljörättsjurist,
