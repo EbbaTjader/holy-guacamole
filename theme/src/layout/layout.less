@@ -1,0 +1,115 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #eeeee6;
+}
+
+/**
+ * Main and sidebars layout.
+ */
+.inner-wrap-main {
+    overflow: auto;
+}
+
+.region-main,
+.region-sidebar-right,
+.region-sidebar-left {
+    //background-color: pink;
+    overflow: auto;
+}
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+      margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+      width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+/*.region-main {
+    width: 70%;
+    float: left;
+}*/
+
+
+
+/* Hide submenu, leave this to kmom02
+.rm-desktop ul {
+    display: none;
+}*/
+
+/* Hide responsive/mobile menu, leave this to kmom02
+.rm-navbar-max {
+    display: none;
+}*/
+
+
+/*.wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: beige;
+}*/
+
+.site-logo {
+    display: none;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+/*.my-navbar li {
+  float: left;
+  margin: 30px;
+  font-size: 20px;
+}*/
+
+.region-flash img {
+    width: 800px;
+}
+
+.left {
+    margin-right: 0;
+}
+
+.author-byline {
+    width: 300px;
+    border: 2px dotted black;
+    padding: 10px;
+}
+
+.column.footer-column {
+    margin: 50px 0px 50px 0px;
+}
