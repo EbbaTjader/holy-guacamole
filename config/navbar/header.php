@@ -30,6 +30,31 @@ return [
                         "url" => "redovisning/kmom02",
                         "title" => "Redovisning för kmom02.",
                     ],
+                    [
+                        "text" => "Kmom03",
+                        "url" => "redovisning/kmom03",
+                        "title" => "Redovisning för kmom03.",
+                    ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "redovisning/kmom05",
+                        "title" => "Redovisning för kmom05.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "redovisning/kmom06",
+                        "title" => "Redovisning för kmom06.",
+                    ],
+                    [
+                        "text" => "Kmom10",
+                        "url" => "redovisning/kmom10",
+                        "title" => "Redovisning för kmom10.",
+                    ],
                 ],
             ],
         ],
@@ -52,6 +77,40 @@ return [
             "text" => "Test",
             "url" => "test",
             "title" => "Lek runt med olika konstruktioner.",
+        ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Kmom04",
+                        "url" => "rapport/04_fargschema.md",
+                        "title" => "Utvärdera webbplatsers färgval.",
+                    ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "rapport/05_laddningstid.md",
+                        "title" => "Utvärdera webbplatsers laddningstid.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "rapport/06_designprincip.md",
+                        "title" => "Utvärdera designprinciper.",
+                    ],
+                    [
+                        "text" => "Kmom07",
+                        "url" => "rapport/07_designelement.md",
+                        "title" => "Skapa tema med designelement.",
+                    ],
+                    [
+                        "text" => "Kmom08",
+                        "url" => "rapport/08_designprinciper.md",
+                        "title" => "Skapa tema enligt designprinciper.",
+                    ],
+                ],
+            ],
         ],
     ],
 ];
