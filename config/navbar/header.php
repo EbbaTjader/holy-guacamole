@@ -79,6 +79,11 @@ return [
             "title" => "Lek runt med olika konstruktioner.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg.",
+        ],
+        [
             "text" => "Rapport",
             "url" => "rapport",
             "title" => "Rapporter.",

@@ -5728,3 +5728,6 @@ li {
   color: #699c17;
   text-decoration: none;
 }
+.inner-wrap-header .row {
+  max-width: 100%;
+}
