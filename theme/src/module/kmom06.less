@@ -1,0 +1,102 @@
+// Font family
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@fontFamilyHeadings: 'Montserrat', sans-serif;
+@fontFamilyBody: 'Montserrat', sans-serif;
+@fontFamilyCode: 'Montserrat', sans-serif;
+
+@lineHeight: 1.4;
+@mainFontSize: 1rem;
+@mainFontWeight: 400;
+@headerFontWeight: 200;
+
+// Magic number and base fontsize
+@magicNumber: 24px;
+@fontSizeBody: 16px;
+
+@bgColorHtml: #fff; //HTML bakgrund
+@bgColorBody: #fff; //Stora Body-bakgrund
+@colorBody: #333; //Textfärg
+@accentBgColor: #eaeaea; //Vet ej
+@accentFontColor: #333; //Vet ej
+
+/**
+* Footer layout
+*/
+.outer-wrap-footer,
+.inner-wrap-footer {
+    background-color: #ffc024;
+}
+
+.inner-wrap-main,
+code,
+.region-flash-message,
+.region-flash {
+    background-color: rgba(253, 225, 136, 0.6);
+}
+
+.inner-wrap-main {
+    border-bottom: 5px solid yellow;
+    border-top: 5px solid yellow;
+}
+
+.region-flash {
+    background-color: yellow;
+}
+
+.outer-wrap-header,
+.inner-wrap-header,
+.region-breadcrumb {
+    background-color: rgba(253, 225, 136);
+}
+
+a,
+li {
+    color: #699c17;
+    text-decoration: none;
+}
+
+.inner-wrap-header .row {
+max-width: 100%;
+}
+////////////////////////////////////
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    //font: 100.01%/1 @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    background:
+radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
+radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240,166,17,0) 0)19px 30px,
+linear-gradient(#fb1 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#fb1 0)0 0,
+linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
+background-size: 40px 60px;
+}
+
+a {
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 2%;
+}
+
+li {
+    border-bottom: 5px solid yellow;
+}
+
+
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
